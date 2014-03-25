@@ -2,7 +2,7 @@ Feature: Perform Search
 
 Scenario: Perform a basic search on Google
 Given I am on Google landing page
-When I attempt to search for some information
-And I click on Search button
+When I click on Search button
+And I enter the information on the search field
 Then I see the results from my search
 
